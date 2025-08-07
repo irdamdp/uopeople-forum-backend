@@ -6,12 +6,6 @@ const app = express();
 const port = process.env.PORT || 5500;
 require("dotenv").config();
 
-// const jwt = require("jsonwebtoken");
-
-// // Now process.env.JWT_SECRET is available
-// console.log("JWT_SECRET:", process.env.JWT_SECRET);
-
-// db connection
 const pool = require("./db/dbconfig.js");
 app.use(cors());
 app.use(express.json());
