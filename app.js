@@ -22,7 +22,7 @@ const authmiddleware = require("./middleware/authmiddleware");
 
 // use router middleware file
 
-const userroutes = require("./route/userRoute");
+const userroutes = require("./route/userroute");
 const questionroutes = require("./route/questionroute");
 const answerroutes = require("./route/answerroute");
 
